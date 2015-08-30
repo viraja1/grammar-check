@@ -1,0 +1,33 @@
+[metadata]
+name=grammar-check
+summary=Checks grammar using LanguageTool.
+description-file=README.rst
+home-page=https://github.com/viraja1/grammar-check
+author=Viraj
+version=0.7.4
+classifier=
+    License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+    Programming Language :: Python :: 2.7
+    Programming Language :: Python :: 3
+    Programming Language :: Python :: 3.2
+    Programming Language :: Python :: 3.3
+
+[files]
+packages=
+    grammar_check
+    grammar_check.backports
+package_data=
+    grammar_check=
+        LanguageTool*/*.*
+        LanguageTool*/libs/*.*
+        LanguageTool*/META-INF/*.*
+        LanguageTool*/META-INF/maven/org.languagetool/*/*.*
+        LanguageTool*/META-INF/org/languagetool/*.*
+        LanguageTool*/org/*/*.*
+        LanguageTool*/org/*/*/*.*
+        LanguageTool*/org/*/*/*/*.*
+        LanguageTool*/org/*/*/*/*/*.*
+        LanguageTool*/org/*/*/*/*/*/*.*
+        LanguageTool*/org/*/*/*/*/*/*/*.*
+scripts=
+    grammar-check

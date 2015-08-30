@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+		English Disambiguation Rules for LanguageTool Copyright (C) 2008
+		Marcin Miłkowski
+$Id: disambiguation.xml,v 1.45 2010-09-25 11:55:08 milek_pl Exp $
+	-->
+<rules lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="../../../../../../../../../languagetool-core/src/main/resources/org/languagetool/resource/disambiguation.xsd">
+
+    <rule id="AULD_LANG_SYNE" name="Auld Lang Syne - title of a famous song">
+        <pattern>
+            <token>auld</token>
+            <token>lang</token>
+            <token>syne</token>
+        </pattern>
+        <disambig action="immunize"/>
+    </rule>
+    
+    <rule name="Modal verb + verb/noun -&gt; modal verb + verb" id="MD_VB">
+        <pattern>
+            <token postag="MD"></token>
+            <marker>
+                <and>
+                    <token postag="VB"></token>
+                    <token postag="NN"></token>
+                </and>
+            </marker>
+        </pattern>
+        <disambig postag="VB"></disambig>
+    </rule>
+    <rule name="be + to + verb/... -&gt;be + to + verb" id="BE_TO_VB">
+        <pattern>
+            <token inflected="yes">be</token>
+            <token>to</token>
+            <marker>
+                <and>
+                    <token postag="VB"></token>
+                    <token postag_regexp="yes" postag="JJ|NN.*"></token>
+                </and>
+            </marker>
+        </pattern>
+        <disambig postag="VB"></disambig>
+    </rule>
+    <!--
+     <rule name="have as verb/noun + past participle -> have/modal" id="HAVE_VBN">
+         <pattern mark="0">
+             <token>have</token>
+             <token postag="VBN" />
+         </pattern>
+         <disambig><match no="1" postag_regexp="yes" postag="MD" /></disambig>
+     </rule>
+     <rule name="have as verb/noun + not -> have/modal" id="HAVE_NOT">
+         <pattern mark="0">
+             <token>have</token>
+             <token>not</token>
+         </pattern>
+         <disambig><match no="1" postag_regexp="yes" postag="MD" /></disambig>
+     </rule>
+      -->
+    <rule name="no determiner + have as verb/noun -&gt;have/verb" id="NODT_HAVE">
+        <pattern>
+            <token><exception postag="PRP$"></exception><exception regexp="yes">the|a</exception></token>
+            <marker>
+                <token>have</token>
+            </marker>
+        </pattern>
+        <disambig><match no="1" postag_regexp="yes" postag="VB"></match></disambig>
+    </rule>
+    <rulegroup name="well + past participle -&gt; well + adjective" id="WELL_VBN">
+        <rule>
+            <pattern>
+                <marker>
+                    <token postag="RB">well</token>
+                </marker>
+                <token postag="VBN"></token>
+            </pattern>
+            <disambig><match no="1" postag_regexp="yes" postag="RB"></match></disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token>well</token>
+                <marker>
+                    <token postag="VBN"></token>
+                </marker>
+            </pattern>
+            <disambig postag="JJ"></disambig>
+        </rule>
+    </rulegroup>
+    <rulegroup name="in as noun -&gt; in as preposition" id="IN_NN_IN">
+        <rule name="in as noun/preposition + the -&gt; in as preposition" id="IN_IN">
+            <pattern>
+                <marker>
+                    <token>in</token>
+                </marker>
+                <token postag="DT"></token>
+            </pattern>
+            <disambig postag="IN"></disambig>
+        </rule>
+        <rule name="in as noun/preposition + uncountable noun -&gt; in as preposition" id="IN_NNUN">
+            <pattern>
+                <marker>
+                    <token>in</token>
+                </marker>
+                <token postag="NN:U.*" postag_regexp="yes"></token>
+            </pattern>
+            <disambig postag="IN"></disambig>
+        </rule>
+    </rulegroup>
+    <rule name="the/these... + numeral + are (noun/verb) -&gt; the... + numer + are (verb)" id="DT_CD_ARE_VB">
+        <pattern>
+            <token postag="DT"></token>
+            <token postag="CD"></token>
+            <marker>
+                <token>are</token>
+            </marker>
+        </pattern>
+        <disambig><match no="3" postag="VBP" postag_regexp="yes"></match></disambig>
+    </rule>
+    <rule name="are (noun/verb)  + adjective/gerund/preposition -&gt; are (verb)" id="ARE_JJ_VBG">
+        <pattern>
+            <marker>
+                <token>are</token>
+            </marker>
+            <token postag="JJ.*|VB[GN]|IN|DT|RB" postag_regexp="yes"></token>
+        </pattern>
+        <disambig><match no="1" postag="VBP" postag_regexp="yes"></match></disambig>
+        <example type="ambiguous" inputform="are[are/NN,be/VBP]" outputform="are[be/VBP]">What follows <marker>are</marker> the terms used by the Aikikai Foundation</example>
+    </rule>
+    <rule name="Are...?" id="SENT_START_ARE">
+    	<pattern>
+    	<token postag="SENT_START"/>
+    	<marker><token>are</token></marker>
+    	</pattern>
+    	<disambig postag="VBP"/>
+    	<example type="untouched">One are of land.</example>
+    	<example type="ambiguous" inputform="Are[are/NN,be/VBP]" outputform="Are[be/VBP]"><marker>Are</marker> people happy?</example>
+    </rule>
+    <rule name="NNS|EX + are (noun/verb) -&gt; are (verb)" id="NNS_ARE">
+        <pattern>
+            <token postag_regexp="yes" postag="EX|NNS"></token>
+            <marker>
+                <token>are</token>
+            </marker>
+        </pattern>
+        <disambig><match no="2" postag="VBP" postag_regexp="yes"></match></disambig>
+    </rule>
+    <rule name="are + we|you -&gt; are (verb)" id="ARE_PRP">
+        <pattern>
+            <marker>
+                <token>are</token>
+            </marker>
+            <token regexp="yes">you|we|they</token>
+        </pattern>
+        <disambig postag="VBP"></disambig>
+    </rule>
+    <rule name="are + : + NNS" id="are_NNS">
+    	<pattern>
+    		<marker><token>are</token></marker>
+    		<token>:</token>
+    		<token postag='NNS'/>
+    	</pattern>
+    	<disambig postag="VBP"/>
+    	<example type="ambiguous" inputform="are[are/NN,be/VBP]" outputform="are[be/VBP]">Among the things that AI needs to represent <marker>are</marker>: objects, properties, categories and relations.</example>
+    </rule>
+    <rule name="his (noun/prep) + noun -&gt; his (prep)" id="HIS_NN_PRP">
+        <pattern>
+            <marker>
+                <token>his</token>
+            </marker>
+            <token postag="NN.*" postag_regexp="yes"></token>
+        </pattern>
+        <disambig><match no="1" postag="PRP\$" postag_regexp="yes"></match></disambig>
+    </rule>
+    <rule name="no determiner + how (noun/adv) -&gt; how (adv)" id="HOW_WRB">
+        <pattern>
+            <token><exception postag_regexp="yes" postag="PRP\$|DT"></exception></token>
+            <marker>
+                <token>how</token>
+            </marker>
+        </pattern>
+        <disambig postag="WRB"></disambig>
+    </rule>
+    <rule name="no determiner + but (noun/conj) -&gt; but (conj)" id="BUT_CC">
+        <pattern>
+            <token><exception regexp="yes">a|the</exception></token>
+            <marker>
+                <token>but</token>
+            </marker>
+        </pattern>
+        <disambig postag="CC"></disambig>
+    </rule>
+    <rule name="if (noun/adv) + determiner -&gt; if (conj)" id="IF_NN_CC">
+        <pattern>
+            <marker>
+                <token>if</token>
+            </marker>
+            <token postag_regexp="yes" postag="DT|PRP"></token>
+        </pattern>
+        <disambig postag="CC"></disambig>
+    </rule>
+    <rule name="los + proper name -&gt; los (proper name)" id="LOS_NNP">
+        <pattern>
+            <marker>
+                <token>Los</token>
+            </marker>
+            <token postag="NNP"></token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+    <rule name="kind (adj) + of -&gt; kind (n)" id="KIND_JJ">
+        <pattern>
+            <marker>
+                <token>kind</token>
+            </marker>
+            <token>of</token>
+        </pattern>
+        <disambig postag="NN"></disambig>
+    </rule>
+    <rule name="be + mine (verb/pron) -&gt; mine (pron)" id="BE_MINE">
+        <pattern>
+            <token inflected="yes" skip="1">be</token>
+            <marker>
+                <token>mine<exception scope="previous" negate_pos="yes" postag_regexp="yes">RB.*</exception></token>
+            </marker>
+        </pattern>
+        <disambig postag="PRP$"></disambig>
+        <example type="untouched">This is a gold mine.</example>
+        <example type="ambiguous" inputform="mine[mine/NN,mine/PRP$,mine/VB,mine/VBP]" outputform="mine[mine/PRP$]">This is <marker>mine</marker>.</example>
+        <example type="ambiguous" inputform="mine[mine/NN,mine/PRP$,mine/VB,mine/VBP]" outputform="mine[mine/PRP$]">This is entirely <marker>mine</marker>.</example>
+    </rule>
+
+    <!-- useful for this/these rule, e.g., in this circumstances -->
+    <rule name="preposition + 'this' + verb 3sg/NNS -&gt; nns" id="IN_VBZ_NNS">
+        <pattern>
+            <token postag="IN"><exception regexp="yes">as|like</exception></token>
+            <token regexp="yes">this|these</token>
+            <marker>
+                <and>
+                    <token postag="NNS"></token>
+                    <token postag="VBZ"><exception regexp="yes">means|works|shows|leads|takes|lies|goes|stems|gives|makes|does</exception></token>
+                </and>
+            </marker>
+        </pattern>
+        <disambig postag="NNS"></disambig>
+    </rule>
+    <rule name="SENT_START + pronoun + verb/NN -&gt; verb" id="SENT_START_PRP_VB_NN">
+        <pattern>
+            <token postag="SENT_START"></token>
+            <token regexp="yes">I|you|we|they</token>
+            <marker>
+                <and>
+                    <token postag="NN"></token>
+                    <token postag="VBP"></token>
+                </and>
+            </marker>
+        </pattern>
+        <disambig postag="VBP"></disambig>
+    </rule>
+    <rule name="t -&gt; contraction (not/RB)" id="T_NOT">
+        <pattern>
+            <token regexp="yes">['’]</token>
+            <marker>
+                <token>t</token>
+            </marker>
+        </pattern>
+        <disambig action="add"><wd lemma="not" pos="RB">t</wd></disambig>
+        <example type="untouched">I cannot do it.</example>
+        <example type="ambiguous" inputform="t[t]" outputform="t[not/RB]">I can'<marker>t</marker> do it.</example>
+    </rule>
+    <rule name="re -> be" id="RE_VBP">
+    	<pattern>
+    		<token regexp="yes">they|we|what|who|you</token>
+    		<token regexp="yes">['’]</token>
+    		<marker>
+    			<token spacebefore="no">re</token>
+    		</marker>
+    	</pattern>
+    	<disambig action="replace"><wd lemma="be" pos="VBP">re</wd></disambig>
+    	<example type="untouched">Re: your letter</example>
+    	<example type="ambiguous" inputform="re[re/IN,re/NN:U]" outputform="re[be/VBP]">They'<marker>re</marker> leaving.</example>
+    </rule>
+    <rule name="ve -> have" id="VE_VBP">
+    	<pattern>
+    		<token regexp="yes">I|they|we|what|who|you</token>
+    		<token regexp="yes">['’]</token>
+    		<marker>
+    			<token spacebefore="no">ve</token>
+    		</marker>
+    	</pattern>
+    	<disambig action="replace"><wd lemma="have" pos="VBP">ve</wd></disambig>
+    	<example type="untouched">-ve is added in front of verbs</example>
+    	<example type="ambiguous" inputform="ve[ve]" outputform="ve[have/VBP]">They'<marker>ve</marker> made a mistake.</example>
+    </rule>
+    <rule name="don't they" id='dont'>
+    	<pattern>
+    		<marker>
+    		<token>don</token>
+    		</marker>
+    		<token regexp="yes">['’]</token>
+    		<token>t</token>
+    	</pattern>
+    	<disambig postag="VBP"/>
+    </rule>
+    <rulegroup name="let's" id="LETS1">
+        <rule>
+            <pattern>
+                <marker>
+                    <token>let</token>
+                </marker>
+                <token regexp="yes">['’]</token>
+                <token>s</token>
+            </pattern>
+            <disambig postag="VBP"></disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token>let</token>
+                <token regexp="yes">['’]</token>
+                <marker>
+                    <token>s</token>
+                </marker>
+            </pattern>
+            <disambig postag="PRP"></disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token>let</token>
+                <token regexp="yes">['’]</token>
+                <token>s</token>
+                <marker>
+                	<token postag='VBP'></token>
+                </marker>
+            </pattern>
+            <disambig postag="VB"></disambig>
+        </rule>
+    </rulegroup>
+    <rule name="determiner + verb/NN -&gt; NN" id="DT_VB_NN">
+        <pattern>
+            <token postag="DT"><exception postag="PDT"></exception></token>
+            <marker>
+                <and>
+                    <token postag_regexp="yes" postag="VBP?"></token>
+                    <token postag_regexp="yes" postag="NN.*"><exception negate_pos="yes" postag="VBP?|NN|NN:UN|NN:U" postag_regexp="yes"></exception></token>
+                </and>
+            </marker>
+        </pattern>
+        <disambig postag="NN"></disambig>
+    </rule>
+    <rule name="determiner + verb/NN -&gt; NN (2)" id="DT_VB_NN_SENTEND">
+        <pattern>
+            <token postag="DT"><exception postag="PDT"></exception></token>
+            <marker>
+                <and>
+                    <token postag="VB"></token>
+                    <token postag="NN"></token>
+                </and>
+            </marker>
+            <token postag="SENT_END"></token>
+        </pattern>
+        <disambig postag="NN"></disambig>
+    </rule>
+
+    <!-- 'an' is part of a proper name here -->
+    <rule name="Qur'an" id="QUARAN">
+        <pattern>
+            <token>Qur</token>
+            <token regexp="yes">['’]</token>
+            <marker>
+                <token spacebefore="no">an</token>
+            </marker>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+    
+    <rule id="CD" name="Tag numbers">
+    	<pattern>
+    		<token regexp="yes">\d+</token>
+    	</pattern>
+    	<disambig postag="CD"/>
+    	<example type="untouched">Ten dollars</example>
+    	<example type='ambiguous' inputform="10[10]" outputform="10[10/CD]"><marker>10</marker> dollars</example>
+    </rule>
+    
+    <!-- A is not a determiner but a variable in this context -->
+    <rule name="a and be" id="A_AND_B">
+        <pattern>
+            <marker>
+                <token>a</token>
+            </marker>
+            <token>and</token>
+            <token>b</token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+    <rule name="A is..." id="A_IS">
+        <pattern case_sensitive="yes">
+            <marker>
+                <token>A</token>
+            </marker>
+            <token>is</token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+    <rule name="A.B.C." id="ABC">
+        <pattern>
+            <marker>
+                <token>a</token>
+            </marker>
+            <token>.</token>
+            <token>b</token>
+            <token>.</token>
+            <token>c</token>
+            <token>.</token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+    <!-- 'a' used as a symbol in some technical notation -->
+    <rule name="A technical" id="A_TECHNICAL">
+        <pattern>
+            <marker>
+                <token>a</token>
+            </marker>
+            <token regexp="yes">[/\+\[\]\(\){}\\,!%&amp;]</token>
+        </pattern>
+        <disambig postag="SYM"></disambig>
+    </rule>
+
+    <!--  "A" mentioned only as a letter -->
+    <rule name="A mentioned (and not used)" id="A_MENTION">
+        <pattern>
+            <token spacebefore="yes" regexp="yes">&quot;|'</token>
+            <marker>
+                <token spacebefore="no">a</token>
+            </marker>
+            <token spacebefore="no" regexp="yes">&quot;|'</token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+
+    <rule name="A priori / posteriori" id="A_PRIORI">
+        <pattern>
+            <marker>
+                <token>a</token>
+            </marker>
+            <token regexp="yes">priori|posteriori|capella</token>
+        </pattern>
+        <disambig postag="FW"></disambig> <!-- foreign word -->
+        <example type="untouched">This is a dog.</example>
+        <example type="ambiguous" inputform="a[a/DT]" outputform="a[a/FW]">This is an <marker>a</marker> priori truth.</example>
+    </rule>
+
+    <rule name="'A' before 'and' and 'or'" id="A_AND_OR">
+        <pattern>
+            <marker>
+                <token>a</token>
+            </marker>
+            <token regexp="yes">and|or</token> <!--  add 'is'? -->
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+
+    <!-- for Bob Brown etc. -->
+    <rule name="NNP/VB + NNP -&gt; NNP" id="NNP_VB_NNP">
+        <pattern case_sensitive="yes">
+            <marker>
+                <and>
+                    <token postag="NNP" regexp="yes">\p{Lu}\p{Ll}+</token>
+                    <token postag_regexp="yes" postag="VB|JJ"></token>
+                </and>
+            </marker>
+            <token postag="NNP" regexp="yes">\p{Lu}\p{Ll}+</token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+    <rule name="Uppercase word/NNP|NN -&gt; NNP" id="UPPER_NNP">
+        <pattern case_sensitive="yes">
+            <and>
+                <marker>
+                    <token regexp="yes">\p{Lu}\p{Ll}+<exception scope="previous" postag="SENT_START"></exception></token>
+                </marker>
+                <token inflected="yes" regexp="yes" postag="NNP">\p{Lu}\p{Ll}+</token>
+                <token inflected="yes" regexp="yes" postag_regexp="yes" postag="NN|NN:.*">\p{Ll}+</token>
+            </and>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+    <rule name="NNP + Uppercase NN -&gt; NNP" id="UPPER_NN_NNP">
+        <pattern case_sensitive="yes">
+            <token inflected="yes" regexp="yes" postag="NNP">\p{Lu}\p{Ll}+</token>
+            <marker>
+                <token regexp="yes" postag="NN">\p{Lu}\p{Ll}+</token>
+            </marker>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+        <example type="ambiguous" inputform="City[&lt;/S&gt;,city/JJ,city/NN]" outputform="City[&lt;/S&gt;,city/NNP]">Kansas <marker>City</marker></example>
+        <example type="untouched">Los Angeles</example>
+    </rule>
+    <rule name="Uppercase word/no tag + 's -&gt; NNP" id="UPPER_UNKNOWN_NNP">
+        <pattern case_sensitive="yes">
+            <marker>
+                <token regexp="yes" postag="UNKNOWN">\p{Lu}\p{Ll}+</token>
+            </marker>
+            <token regexp="yes">['’]</token>
+            <token>s</token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+        <example type="ambiguous" inputform="Fodor[Fodor]" outputform="Fodor[Fodor/NNP]"><marker>Fodor</marker>'s concept of modularity is narrow.</example>
+        <example type="untouched">Bill's example is very good.</example>
+    </rule>
+
+    <rulegroup name="initial -&gt; NNP" id="initial_NNP">
+        <rule>
+            <pattern case_sensitive="yes">
+                <marker>
+                    <token regexp="yes">\p{Lu}$<exception scope="previous" postag="SENT_START"></exception></token>
+                </marker>
+                <token>.</token>
+                <token postag="NNP"></token>
+            </pattern>
+            <disambig postag="NNP"></disambig>
+        </rule>
+        <rule>
+            <pattern case_sensitive="yes">
+                <marker>
+                    <token regexp="yes">\p{Lu}$<exception scope="previous" postag="SENT_START"></exception></token>
+                </marker>
+                <token>.</token>
+                <token regexp="yes">\p{Lu}$<exception scope="previous" postag="SENT_START"></exception></token>
+                <token>.</token>
+                <token postag="NNP"></token>
+            </pattern>
+            <disambig postag="NNP"></disambig>
+        </rule>
+    </rulegroup>
+
+    <rule name="President Brown -&gt; NNP" id="title_NNP">
+        <pattern case_sensitive="yes">
+            <marker>
+                <token regexp="yes">(?iu)president|captain|sergeant|general|madame|engineer|minister|chair|deputy|representative|manager|secretary|professor|bishop|attorney|vicar|treasurer|commander|archbishop|editor|principal|dean|sheriff|lieutenant</token>
+            </marker>
+            <token regexp="yes">\p{Lu}\p{Ll}+|\p{Lu}$</token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+
+    <rule name="Abbrevs" id="SEN_GEN_NNP">
+        <pattern>
+            <marker>
+                <token regexp="yes">Gen|Sen|Prof|Atty|Gov</token>
+            </marker>
+            <token>.</token>
+            <token postag="NNP"></token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+
+    <rule name="elected|appointed + role -&gt; NN:UN" id="elected_NN_UN">
+        <pattern>
+            <token regexp="yes">elected|appointed|ordained</token>
+            <marker>
+                <token postag="NN"><exception negate_pos="yes" postag="NN"></exception></token>
+            </marker>
+        </pattern>
+        <disambig postag="NN:UN"></disambig>
+    </rule>
+
+    <rule name="Simple gazetteer/proper name rule" id="gazetteer">
+        <pattern case_sensitive="yes">
+            <marker>
+                <token regexp="yes">Lake|Fort|Port|Mount</token>
+            </marker>
+            <token regexp="yes">\p{Lu}\p{Ll}+</token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+
+    <rule name="street names" id="Street">
+        <pattern case_sensitive="yes">
+            <marker>
+                <token regexp="yes">\p{Lu}\p{Ll}+</token>
+            </marker>
+            <token regexp="yes">Street|Avenue|Boulevard</token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+
+    <rule name="candidate|nomination for NN -&gt; NNP" id="candidate_NNP">
+        <pattern>
+            <token regexp="yes" inflected="yes">candidate|nomination|election</token>
+            <token>for</token>
+            <marker>
+                <token postag="NN"><exception negate_pos="yes" postag="NN"></exception></token>
+            </marker>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+
+    <rulegroup name="United States" id="USA1">
+        <rule>
+            <pattern case_sensitive="yes">
+                <marker>
+                    <token>United</token>
+                </marker>
+                <token>States</token>
+            </pattern>
+            <disambig postag="NNP"></disambig>
+        </rule>
+        <rule>
+            <pattern case_sensitive="yes">
+                <token>United</token>
+                <marker>
+                    <token>States</token>
+                </marker>
+            </pattern>
+            <disambig postag="NNPS"></disambig>
+        </rule>
+    </rulegroup>
+
+    <rule name="IN/NN + PRP$ -&gt; IN" id="IN_NN_PRP">
+        <pattern>
+            <marker>
+                <and>
+                    <token postag="IN"><exception>like</exception></token>
+                    <token postag="NN"></token>
+                </and>
+            </marker>
+            <token postag_regexp="yes" postag="PRP$|NNP"></token>
+        </pattern>
+        <disambig postag="IN"></disambig>
+    </rule>
+
+    <!-- the known good solution -->
+    <rule name="DT + VBN + JJ -&gt; VBN=JJ" id="DT_VBN_JJ">
+        <pattern>
+            <token regexp="yes">a|an|the</token>
+            <marker>
+                <token postag="VBN"></token>
+            </marker>
+            <token postag="JJ"></token>
+        </pattern>
+        <disambig postag="JJ"></disambig>
+    </rule>
+
+    <!-- known written works -->
+    <rule name="VBN + VBN + NN -&gt; JJ" id="VBN_VBN_NN_JJ">
+        <pattern>
+            <marker>
+                <token postag="VBN"></token>
+            </marker>
+            <token postag="VBN"></token>
+            <token postag_regexp="yes" postag="NN:.*|NNS|NN"></token>
+        </pattern>
+        <disambig postag="JJ"></disambig>
+    </rule>
+    <rule name="of + VBN + JJ -&gt; JJ" id="OF_VBN_JJ">
+        <pattern>
+            <token>of</token>
+            <marker>
+                <token postag="VBN"></token>
+            </marker>
+            <token postag="JJ"></token>
+        </pattern>
+        <disambig postag="JJ"></disambig>
+    </rule>
+
+    <!--  her duck Oliver -->
+    <rule name="NN + NNP/JJR -&gt; NNP" id="NN_NNP_JJR">
+        <pattern case_sensitive="yes">
+            <token regexp="yes" postag="NN.*" postag_regexp="yes">\p{Ll}+</token>
+            <marker>
+                <and>
+                    <token postag="NNP" regexp="yes">\p{Lu}\p{Ll}+</token>
+                    <token postag="JJR"></token>
+                </and>
+            </marker>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+
+    <!--  from X to X -->
+    <rulegroup name="from X to X -&gt; NN:UN" id="from_NN_to_NN">
+        <rule>
+            <pattern>
+                <token>from</token>
+                <marker>
+                    <token postag="NN"></token>
+                </marker>
+                <token>to</token>
+                <token postag_regexp="yes" postag="NN.*"></token>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token>from</token>
+                <token postag="NN:UN"></token>
+                <token>to</token>
+                <marker>
+                    <token postag="NN"></token>
+                </marker>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+    </rulegroup>
+    <rulegroup name="from nose to tail" id="FROM_NOSE_TO_TAIL">
+        <rule>
+            <pattern>
+                <token>from</token>
+                <marker>
+                    <token>nose</token>
+                </marker>
+                <token>to</token>
+                <token>tail</token>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token>from</token>
+                <token>nose</token>
+                <token>to</token>
+                <marker>
+                    <token>tail</token>
+                </marker>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+    </rulegroup>
+    <rule name="sore throat" id="SORE_THROAT">
+        <pattern>
+            <token>sore</token>
+            <marker>
+                <token>throat</token>
+            </marker>
+        </pattern>
+        <disambig postag="NN:UN"></disambig>
+    </rule>
+    <rule name="give sb credit/VB -&gt; NN:UN" id="GIVE_CREDIT">
+        <pattern>
+            <token inflected="yes">give</token>
+            <token postag="NNP|PRP" postag_regexp="yes"></token>
+            <marker>
+                <token>credit</token>
+            </marker>
+        </pattern>
+        <disambig postag="NN:UN"></disambig>
+    </rule>
+    <rule name="there + SENT_END -&gt; RB" id="EX_SENT_END_RB">
+        <pattern>
+            <marker>
+                <token postag="EX"></token>
+            </marker>
+            <token postag_regexp="yes" postag="SENT_END|,|IN|PRP"></token>
+        </pattern>
+        <disambig postag="RB"></disambig>
+    </rule>
+    <rulegroup name="EX + was|is... + VB/NN -&gt; NN" id="EX_ARE_NN">
+        <rule>
+            <pattern>
+                <token postag="EX"></token>
+                <token regexp="yes">is|was|are|were</token>
+                <marker>
+                    <and>
+                        <token postag="VB"></token>
+                        <token postag_regexp="yes" postag="NN.*|JJ.*"></token>
+                    </and>
+                </marker>
+            </pattern>
+            <disambig><match no="3" postag_regexp="yes" postag="NN.*|JJ.*"></match></disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token postag="EX"></token>
+                <token regexp="yes">is|was|are|were</token>
+                <marker>
+                    <token postag="RB"><exception postag="CC"></exception></token>
+                </marker>
+                <and>
+                    <token postag="VB"></token>
+                    <token postag_regexp="yes" postag="NN.*|JJ.*"></token>
+                </and>
+            </pattern>
+            <disambig><match no="3" postag_regexp="yes" postag="NN.*|JJ.*"></match></disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token postag="EX"></token>
+                <token regexp="yes">have|has</token>
+                <token>been</token>
+                <marker>
+                    <token postag="RB"><exception postag="CC"></exception></token>
+                </marker>
+                <and>
+                    <token postag="VB"></token>
+                    <token postag_regexp="yes" postag="NN.*|JJ.*"></token>
+                </and>
+            </pattern>
+            <disambig><match no="3" postag_regexp="yes" postag="NN.*|JJ.*"></match></disambig>
+        </rule>
+    </rulegroup>
+    <rule name="while (IN/NN/VBP) + PRP -&gt; while/IN" id="WHILE_IN_PRP">
+        <pattern>
+            <marker>
+                <token>while</token>
+            </marker>
+            <token postag_regexp="yes" postag="PRP|VBG"></token>
+        </pattern>
+        <disambig postag="IN"></disambig>
+    </rule>
+    <rule name="Web page (noun/verb) -&gt; page (noun)" id="WEB_PAGE">
+        <pattern>
+            <token>web</token>
+            <marker>
+                <token>page</token>
+            </marker>
+        </pattern>
+        <disambig postag="NN"></disambig>
+    </rule>
+    <rule name="DT|JJ + JJ/NN + NN -&gt; JJ" id="DT_JJ_NN_JJ">
+        <pattern>
+            <token postag_regexp="yes" postag="DT|JJ"></token>
+            <marker>
+                <and>
+                    <token postag="JJ"><exception postag_regexp="yes" negate_pos="yes" postag="JJ|NN.*"></exception></token>
+                    <token postag_regexp="yes" postag="NN.*"></token>
+                </and>
+            </marker>
+            <token postag_regexp="yes" postag="NN.*"></token>
+        </pattern>
+        <disambig><match no="2" postag_regexp="yes" postag="JJ"></match></disambig>
+    </rule>
+    <rule name="till (verb) -&gt; till/IN" id="TILL_IN">
+        <pattern>
+            <marker>
+                <token>till</token>
+            </marker>
+            <token postag_regexp="yes" postag="PRP\$|DT"></token>
+            <token><exception regexp="yes">soil|land|fields|field</exception></token>
+        </pattern>
+        <disambig postag="IN"></disambig>
+    </rule>
+    <rule name="IN + NN/VBG + DT" id="before_NN_VBG">
+        <pattern>
+            <token postag="IN"></token>
+            <marker>
+                <and>
+                    <token postag="NN"></token>
+                    <token postag="VBG"></token>
+                </and>
+            </marker>
+            <token postag_regexp="yes" postag="DT|PRP|IN|JJ.*"></token>
+        </pattern>
+        <disambig><match no="2" postag="VBG" postag_regexp="yes"></match></disambig>
+    </rule>
+    <rule name="be + NN/VBG + DT" id="be_NN_VBG">
+        <pattern>
+            <token inflected="yes">be</token>
+            <marker>
+                <and>
+                    <token postag="NN"></token>
+                    <token postag="VBG"></token>
+                </and>
+            </marker>
+        </pattern>
+        <disambig><match no="2" postag="VBG" postag_regexp="yes"></match></disambig>
+    </rule>
+    <rule name="without having (NN/VBG)-&gt;VBG" id="without_kk_NN_VBG">
+        <pattern>
+            <token regexp="yes">before|after|while|from|without</token>
+            <marker>
+                <and>
+                    <token postag="NN"></token>
+                    <token postag="VBG">having</token>
+                </and>
+            </marker>
+        </pattern>
+        <disambig><match no="2" postag="VBG" postag_regexp="yes"></match></disambig>
+    </rule>
+    <rule name="having (NN/VBG) + VBN -&gt;VBG" id="HAVING_VBN">
+        <pattern>
+            <marker>
+                <and>
+                    <token postag="NN"></token>
+                    <token postag="VBG">having</token>
+                </and>
+            </marker>
+            <token postag="VBN"></token>
+        </pattern>
+        <disambig><match no="1" postag="VBG" postag_regexp="yes"></match></disambig>
+    </rule>
+    <rule name="are + VBG/NN -&gt; VBG" id="ARE_VBG_NN">
+        <pattern>
+            <token regexp="yes">['’]</token>
+            <token>re</token>
+            <marker>
+                <token postag="VBG"></token>
+            </marker>
+        </pattern>
+        <disambig><match no="3" postag="VBG" postag_regexp="yes"></match></disambig>
+    </rule>
+    <rule name="I'm -&gt; VBP" id="AM_VBP">
+        <pattern>
+            <token>I</token>
+            <token regexp="yes">['’]</token>
+            <marker>
+                <token>m</token>
+            </marker>
+        </pattern>
+        <disambig action="add"><wd lemma="be" pos="VBP">m</wd></disambig>
+    </rule>
+    <rule name="Don't|do|don/vb -&gt;don't/vb" id="DONT_VB">
+        <pattern>
+            <marker>
+                <token>don</token>
+            </marker>
+            <token regexp="yes">['’]</token>
+            <token>t</token>
+        </pattern>
+        <disambig action="add"><wd pos="VBP" lemma="do"></wd></disambig>
+    </rule>
+    <rule name="'s -&gt; be/vbz" id="POS_BE_VBZ">
+        <pattern>
+            <token postag_regexp="yes" postag="WP|PRP"></token>
+            <token regexp="yes">['’]</token>
+            <marker>
+                <token spacebefore="no">s</token>
+            </marker>
+        </pattern>
+        <disambig action="add"><wd pos="VBZ" lemma="be"></wd></disambig>
+    </rule>
+    <rulegroup name="off/in season(NN) -&gt; NN:UN" id="SEASON">
+        <rule>
+            <pattern>
+                <token regexp="yes">off|in</token>
+                <marker>
+                    <token>season</token>
+                </marker>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token>out</token>
+                <token>of</token>
+                <marker>
+                    <token>season</token>
+                </marker>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+    </rulegroup>
+    <rulegroup name="coast to coast (NN:UN)" id="COAST_TO_COAST">
+        <rule>
+            <pattern>
+                <marker>
+                    <token>coast</token>
+                </marker>
+                <token>to</token>
+                <token>coast</token>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token>coast</token>
+                <token>to</token>
+                <marker>
+                    <token>coast</token>
+                </marker>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+    </rulegroup>
+    <rule name="about + figure -&gt; about (RB)" id="ABOUT_NN_RB">
+        <pattern>
+            <marker>
+                <token>about</token>
+            </marker>
+            <token regexp="yes">(one\-(third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|sixteenth|hundredth|thousandth|millionth|trillionth|quadrillionth|quintillionth|half))|two\-(thirds)</token>
+        </pattern>
+        <disambig postag="RB"></disambig>
+    </rule>
+    <rulegroup name="face to face" id="FACE_TO_FACE">
+        <rule>
+            <pattern>
+                <marker>
+                    <token>face</token>
+                </marker>
+                <token>to</token>
+                <token>face</token>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token>face</token>
+                <token>to</token>
+                <marker>
+                    <token>face</token>
+                </marker>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+    </rulegroup>
+    <rulegroup name="arm in arm" id="ARM_IN_ARM">
+        <rule>
+            <pattern>
+                <marker>
+                    <token>arm</token>
+                </marker>
+                <token>in</token>
+                <token>arm</token>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+        <rule>
+            <pattern>
+                <token>arm</token>
+                <token>in</token>
+                <marker>
+                    <token>arm</token>
+                </marker>
+            </pattern>
+            <disambig postag="NN:UN"></disambig>
+        </rule>
+    </rulegroup>
+    <rule name="old hat" id="OLD_HAT">
+        <pattern>
+            <token>old</token>
+            <marker>
+                <token>hat</token>
+            </marker>
+        </pattern>
+        <disambig postag="NN:UN"></disambig>
+    </rule>
+    <rulegroup name="Figure|Table|Appendix 1 -&gt; NNP" id="figure_1_NNP">
+    <rule>
+        <pattern>
+            <marker>
+                <token regexp="yes">figure|table|appendix|chapter|part|section|picture|lemma|column|row|fraction</token>
+            </marker>       
+            <token regexp="yes">\d+([\.\-]\d+)*|[A-Z]</token>
+        </pattern>
+        <disambig postag="NNP"></disambig>
+    </rule>
+    	<rule>
+    		<pattern>
+    			<marker>
+				<token regexp="yes">fig|chap</token>
+				</marker>
+				<token>.</token>
+				<token regexp="yes">[\d+\p{Lu}]</token>    		
+    		</pattern>
+    		<disambig postag="NNP"/>
+    		<example type="untouched">This is Figure 1.</example>
+    		<example type="ambiguous" inputform="Fig[fig/NN]" outputform="Fig[fig/NNP]">This is <marker>Fig</marker>. 1.</example>
+    	</rule>
+    </rulegroup>   
+    <rule name="worth + VBG/NN -&gt; VBG" id="WORTH_VBG_NN">
+        <pattern>
+            <token>worth</token>
+            <marker>
+                <and>
+                    <token postag="NN"></token>
+                    <token postag="VBG"></token>
+                </and>
+            </marker>
+        </pattern>
+        <disambig><match no="2" postag_regexp="yes" postag="VBG"></match></disambig>
+    </rule>
+    <rule name="NO/DT/NN/NNP + NN|JJ -&gt; NO/DT" id="IN_NO_DT">
+        <pattern>
+            <marker>
+                <token>no</token>
+            </marker>
+            <token postag_regexp="yes" postag="NN|JJ.*"></token>
+        </pattern>
+        <disambig postag="DT"></disambig>
+    </rule>
+    <rule name="PRP + VBZ/NNS -&gt; VBZ" id="PRP_VBZ">
+        <pattern>
+            <token regexp="yes">it|he|she</token>
+            <marker>
+                <and>
+                    <token postag="VBZ"></token>
+                    <token postag_regexp="yes" postag="NN.*"></token>
+                </and>
+            </marker>
+        </pattern>
+        <disambig><match no="2" postag="VBZ" postag_regexp="yes"></match></disambig>
+    </rule>
+    <rule name="PRP + MD/NN -&gt; MD" id="PRP_MD">
+        <pattern>
+            <token postag="PRP"></token>
+            <marker>
+                <and>
+                    <token postag="MD"></token>
+                    <token postag_regexp="yes" postag="NN.*"></token>
+                </and>
+            </marker>
+        </pattern>
+        <disambig><match no="2" postag="MD" postag_regexp="yes"></match></disambig>
+    </rule>
+    <rule name="PDT/DT -&gt; DT" id="PDT_DT">
+        <pattern>
+            <marker>
+                <and>
+                    <token postag="PDT"></token>
+                    <token postag="DT"></token>
+                </and>
+            </marker>
+            <token><exception postag_regexp="yes" postag="DT|PRP\$"></exception></token>
+        </pattern>
+        <disambig postag="DT"></disambig>
+        <example type="ambiguous" inputform="All[all/DT,all/JJ,all/NN:U,all/PDT]" outputform="All[all/DT]"><marker>All</marker> students are happy.</example>
+        <example type="untouched">All the people.</example>
+    </rule>
+    <rule name="PDT/DT -&gt; PDT" id="PDT_PDT">
+        <pattern>
+            <marker>
+                <and>
+                    <token postag="PDT"></token>
+                    <token postag="DT"></token>
+                </and>
+            </marker>
+            <token postag_regexp="yes" postag="DT|PRP\$"></token>
+        </pattern>
+        <disambig postag="PDT"></disambig>
+        <example type="ambiguous" inputform="All[all/DT,all/JJ,all/NN:U,all/PDT]" outputform="All[all/PDT]"><marker>All</marker> the people are happy.</example>
+        <example type="untouched">All students are happy.</example>
+    </rule>
+    <rule name="WDT/WP -&gt;WDT" id="WP_WDT">
+        <pattern>
+            <marker>
+                <and>
+                    <token postag="WP"></token>
+                    <token postag="WDT"></token>
+                </and>
+            </marker>
+            <token postag_regexp="yes" postag="NN|NN:UN"></token>
+        </pattern>
+        <disambig postag="WDT"></disambig>
+        <example type="ambiguous" inputform="What[what/UH,what/WDT,what/WP]" outputform="What[what/WDT]"><marker>What</marker> kind of bread is this?</example>
+        <example type="untouched">What are you doing?</example>
+    </rule>
+    <rule name="WDT/WP -&gt;WP" id="WDT_WP">
+        <pattern>
+            <marker>
+                <and>
+                    <token postag="WP"></token>
+                    <token postag="WDT"></token>
+                </and>
+            </marker>
+            <token><exception postag_regexp="yes" postag="NN|NN:UN"></exception></token>
+        </pattern>
+        <disambig postag="WP"></disambig>
+        <example type="ambiguous" inputform="What[what/UH,what/WDT,what/WP]" outputform="What[what/WP]"><marker>What</marker> are you doing?</example>
+        <example type="untouched">What kind of bread is this?</example>
+    </rule>
+    <rulegroup name="CD/NN + NNS -&gt; CD" id="CD_NN">
+        <rule>
+            <pattern>
+                <marker>
+                    <and>
+                        <token postag="CD"></token>
+                        <token postag="NN"></token>
+                    </and>
+                </marker>
+                <token postag="NNS"></token>
+            </pattern>
+            <disambig postag="CD"></disambig>
+            <example type="ambiguous" inputform="two[two/CD,two/JJ,two/NN]" outputform="two[two/CD]">These <marker>two</marker> things are important.</example>
+            <example type="untouched">These are those two.</example>
+        </rule>
+        <rule>
+            <pattern>
+                <marker>
+                    <and>
+                        <token postag="CD"></token>
+                        <token postag="NN"></token>
+                    </and>
+                </marker>
+                <token postag="JJ"></token>
+                <token postag="NNS"></token>
+            </pattern>
+            <disambig postag="CD"></disambig>
+            <example type="ambiguous" inputform="two[two/CD,two/JJ,two/NN]" outputform="two[two/CD]">These <marker>two</marker> bad things are important.</example>
+            <example type="untouched">These are those bad two.</example>
+        </rule>
+    </rulegroup>
+    <rulegroup name="Quotation marks" id="QUOT">
+        <rule>
+            <pattern>
+                <token postag="SENT_START"></token>
+                <marker>
+                    <token>&quot;</token>
+                </marker>
+            </pattern>
+            <disambig postag="``"></disambig>
+            <example type="untouched">Example 'a'</example>
+            <example type="untouched">Example &quot;a</example>
+            <example type="ambiguous" inputform="&quot;[&quot;/'',&quot;/``]" outputform="&quot;[&quot;/``]"><marker>&quot;</marker>A test.</example>
+        </rule>
+        <rule>
+            <pattern>
+                <token><exception regexp="yes">\p{Ps}</exception></token>
+                <marker>
+                    <and>
+                        <token postag="``" spacebefore="no">&quot;</token>
+                        <token postag="''" spacebefore="no">&quot;</token>
+                    </and>
+                </marker>
+            </pattern>
+            <disambig postag="''"></disambig>
+            <example type="untouched">Example 'a'</example>
+            <example type="untouched">Example &quot;a</example>
+            <example type="untouched">Example (&quot;a</example>
+            <example type="ambiguous" inputform="&quot;[&quot;/'',&quot;/``]" outputform="&quot;[&quot;/'']">A &quot;test<marker>&quot;</marker>.</example>
+        </rule>
+        <rule>
+            <pattern>
+                <marker>
+                    <and>
+                        <token postag="''" spacebefore="yes">&quot;</token>
+                        <token postag="``" spacebefore="yes">&quot;</token>
+                    </and>
+                </marker>
+            </pattern>
+            <disambig postag="``"></disambig>
+            <example type="untouched">Example 'a'</example>
+            <example type="untouched">Example a&quot;</example>
+            <example type="ambiguous" inputform="&quot;[&quot;/'',&quot;/``]" outputform="&quot;[&quot;/``]">A <marker>&quot;</marker>test&quot;.</example>
+        </rule>
+        <rule>
+            <pattern>
+                <token regexp="yes">\p{Ps}</token>
+                <marker>
+                    <and>
+                        <token postag="``" spacebefore="no">&quot;</token>
+                        <token postag="''" spacebefore="no">&quot;</token>
+                    </and>
+                </marker>
+            </pattern>
+            <disambig postag="``"></disambig>
+            <example type="untouched">Example 'a'</example>
+            <example type="untouched">Example &quot;a</example>
+            <example type="untouched">Example a&quot;</example>
+            <example type="ambiguous" inputform="&quot;[&quot;/'',&quot;/``]" outputform="&quot;[&quot;/``]">A (<marker>&quot;</marker>test&quot;.</example>
+        </rule>
+    </rulegroup>
+
+    <rulegroup name="Add possessive ending" id="POS_ADD">
+        <rule>  <!--	probably verb "is": now add to some -->
+            <pattern>
+                <token><exception postag_regexp="yes" postag="NN.*|VBP"></exception></token>
+                <token spacebefore="no" regexp="yes">['’]</token>
+                <marker>
+                    <token spacebefore="no">s</token>
+                </marker>
+                <token><exception postag="SENT_END"/><exception regexp="yes">[,:;]</exception></token>
+            </pattern>
+            <disambig action="add"><wd lemma="be" pos="VBZ">s</wd></disambig>
+            <example type="untouched">This is Bill's house.</example>
+            <example type="untouched">Let's go!</example>
+            <example type="untouched">Let's see!</example>
+            <example type="ambiguous" inputform="s[s/POS]" outputform="s[be/VBZ,s/POS]">Where'<marker>s</marker> Bill?</example>
+        </rule>
+        <!--  remove POS where it doesn't occur after the noun-->
+        <rule name="Remove possessive ending" id="POS_REMOVE">
+            <!--  probably verb "is":remove -->
+            <pattern>
+                <token><exception postag_regexp="yes" postag="NN.*|PRP\$|DT"/></token>
+                <token spacebefore="no" regexp="yes">['’]</token>
+                <marker>
+                    <token spacebefore="no" postag="POS">s</token>
+                </marker>
+            </pattern>
+            <disambig action="remove"><wd lemma="s" pos="POS">s</wd></disambig>
+            <example type="untouched">This is Bill's house.</example>
+            <example type="untouched">This is your's.</example>
+            <example type="ambiguous" inputform="s[be/VBZ,s/POS]" outputform="s[be/VBZ]">Where'<marker>s</marker> Bill?</example>
+        </rule>
+        <rule> <!--  add to Bill's -->
+            <pattern>
+                <token postag_regexp="yes" postag="NN.*"></token>
+                <marker>
+                    <token spacebefore="no" regexp="yes">['’]</token>
+                </marker>
+                <token spacebefore="no">s</token>
+            </pattern>
+            <disambig action="add"><wd lemma="'" pos="POS">'</wd></disambig>
+            <example type="ambiguous" inputform="'[']" outputform="'['/POS]">This is Bill<marker>'</marker>s house.</example>
+            <example type="untouched">Let's go!</example>
+        </rule>
+        <rule> <!--  add to Texas' or Armenians' -->
+            <pattern>
+                <token postag_regexp="yes" postag="NN.*" regexp="yes">.*s<exception scope="previous">'</exception></token>
+                <marker>
+                    <token spacebefore="no" regexp="yes">['’]</token>
+                </marker>
+                <token><exception>s</exception></token>
+            </pattern>
+            <disambig action="add"><wd lemma="'" pos="POS">'</wd></disambig>
+            <example type="untouched">This is Bill's house.</example>
+            <example type="untouched">This is how 'unconscious' knowledge is posited.</example>
+            <example type="untouched">Let's go!</example>
+            <example type="ambiguous" inputform="'[']" outputform="'['/POS]">I hate Texas<marker>'</marker> big cities!</example>
+        </rule>        
+    </rulegroup>
+    <rule name="Goin'" id="VBG_IN">
+        <pattern>
+            <marker>
+                <token regexp="yes" postag="UNKNOWN">.*in</token>
+            </marker>
+            <token spacebefore="no" regexp="yes">['’]</token>
+        </pattern>
+        <disambig postag="VBG"></disambig>
+        <example type="untouched">I'm in N.Y.</example>
+        <example type="ambiguous" inputform="Puttin[Puttin]" outputform="Puttin[Puttin/VBG]"><marker>Puttin</marker>' on the Ritz!</example>
+    </rule>
+    <rulegroup name="All but" id="all_but_rb">
+        <rule>
+            <pattern>
+                <marker>
+                    <token>all</token>
+                </marker>
+                <token regexp="yes">but|right</token>
+            </pattern>
+            <disambig postag="RB"></disambig>
+            <example type="untouched">All the students are happy.</example>
+            <example type="ambiguous" inputform="All[all/DT]" outputform="All[all/RB]"><marker>All</marker> but one!</example>
+            <example type="ambiguous" inputform="All[all/DT]" outputform="All[all/RB]"><marker>All</marker> right!</example>
+        </rule>
+        <rule>
+            <pattern>
+                <token>all</token>
+                <marker>
+                    <token>but</token>
+                </marker>
+            </pattern>
+            <disambig postag="RB"></disambig>
+            <example type="untouched">All the students are happy.</example>
+            <example type="ambiguous" inputform="but[but/CC]" outputform="but[but/RB]">All <marker>but</marker> one!</example>
+        </rule>
+    </rulegroup>
+    <rule name="the + adverb/noun + the -&gt; noun" id="THE_RBNN_THE">
+        <pattern>
+            <token>the</token>
+            <marker>
+                <and>
+                    <token postag="RB"></token>
+                    <token postag_regexp="yes" postag="NN.*"></token>
+                </and>
+            </marker>
+            <token>the</token>
+        </pattern>
+        <disambig action="remove"><wd pos="RB"></wd></disambig>
+        <example type="untouched">The really the interesting thing is this.</example>
+        <example type="ambiguous" inputform="meanwhile[meanwhile/JJ,meanwhile/NN:U,meanwhile/RB]" outputform="meanwhile[meanwhile/JJ,meanwhile/NN:U]">In the <marker>meanwhile</marker> the whole situation changed.</example>
+    </rule>
+    <!-- AtD false alarm rules -->
+    <!-- in all ways::filter=kill -->
+    <rule id="IN_ALL_WAYS" name="in all ways">
+        <pattern>
+            <token>in</token>
+            <token>all</token>
+            <token>ways</token>
+        </pattern>
+        <disambig action="immunize"></disambig>
+    </rule>
+    <rule id="MD_STAND_ALONE" name="MD stand alone">
+        <pattern>
+            <token postag="MD"><exception postag="MD" negate_pos="yes"></exception></token>
+            <token>stand</token>
+            <token>alone</token>
+        </pattern>
+        <disambig action="immunize"></disambig>
+    </rule>
+    <rule id="TO_STAND_ALONE" name="to stand alone">
+        <pattern>
+            <token>to</token>
+            <token>stand</token>
+            <token>alone</token>
+        </pattern>
+        <disambig action="immunize"></disambig>
+    </rule>
+    <!-- &comparisons then 0END.0::filter=kill -->
+    <rule id="COMPARISONS_THEN_0END0" name="comparisons then 0END0">
+        <pattern>
+            <token regexp="yes">hotter|colder|lamer|less|lesser|more|greater|heavier|lighter|better|worse|smarter|dumber|cheaper|sexier|taller|shorter|faster|slower|older|younger|easier|harder|farther|closer|higher|lower|larger|smaller|sooner|later|weaker|stronger|louder|quieter|darker|brighter</token>
+            <token>then</token>
+            <token postag="SENT_END"></token>
+        </pattern>
+        <disambig action="immunize"></disambig>
+    </rule>
+    <!-- Who's|who's .*ing::filter=kill -->
+    <rule id="WHOSWHOS_ING" name="Whos whos ing">
+        <pattern case_sensitive="yes">
+            <token regexp="yes">Who|who</token>
+            <token>'</token>
+            <token>s</token>
+            <token regexp="yes">.*ing</token>
+        </pattern>
+        <disambig action="immunize"></disambig>
+    </rule>
+    
+    <!--  some more disambiguation -->
+    <rule id="PRP_VB_VBP" name="vb->vbp">
+		<pattern>
+			<token postag="PRP"/>
+			<marker>
+				<and>
+				<token postag="VB"><exception negate_pos="yes" postag_regexp="yes" postag="VBP|VB"/></token>
+				<token postag='VBP'/>
+				</and>
+			</marker>
+		</pattern>
+		<disambig postag="VBP"/>
+		<example type="untouched">Pigs know that.</example>
+		<example type="ambiguous" inputform="know[know/VB,know/VBP]" outputform="know[know/VBP]">We <marker>know</marker> that.</example>     
+    </rule>
+    <rule id="VBP_VBZ_NNS" name="VBZ/NN->VBZ">
+    	<pattern>
+    		<token postag="VBP"/>
+    		<marker>
+    		<and>
+    			<token postag="VBZ"/>
+    			<token postag="NN"/>
+    		</and>
+    		</marker>
+    	</pattern>
+    	<disambig postag="VBZ"/>
+    	<example type="untouched">He comes from another city.</example>
+    	<example type="ambiguous" inputform="comes[come/VBZ,comes/NN]" outputform="comes[come/VBZ]">What we know <marker>comes</marker> from a book.</example>
+    </rule>	
+        
+    <!--  This is a special cascade, do not change the order of these rules! -->
+    <rulegroup id="POS" name="Else's -> POS">
+    <rule>
+    	<pattern>
+    		<token regexp="yes">else|\d+</token>
+    		<token>'</token>
+    		<marker>
+    		<token>s</token>
+    		</marker>
+    		<token postag="NN.*" postag_regexp="yes"/>
+    	</pattern>
+		<disambig action="add"><wd pos="POS" lemma="s"></wd></disambig>
+    	<example type="untouched">His books are nice.</example>
+    	<example type="ambiguous" inputform="s[be/VBZ]" outputform="s[be/VBZ,s/POS]" >Somebody else'<marker>s</marker> hypothesis needs to be tested.</example>    	
+    </rule>
+    <rule>
+    	<pattern>
+    		<token postag="UNKNOWN" regexp="yes">\p{Lu}.+</token>
+    		<token>'</token>
+    		<marker>
+    		<token>s</token>
+    		</marker>
+    		<token postag="NN.*" postag_regexp="yes"/>
+    	</pattern>
+		<disambig action="add"><wd pos="POS" lemma="s"></wd></disambig>
+    	<example type="untouched">His books are nice.</example>
+    	<example type="ambiguous" inputform="s[be/VBZ]" outputform="s[be/VBZ,s/POS]" >WD-2'<marker>s</marker> hypothesis needs to be tested.</example>    	
+    </rule>
+    <rule id="ONES_POS" name="One's -> POS">
+    	<pattern>
+    		<token postag_regexp="yes" postag="NN|JJ|CD|UNKNOWN"/>
+    		<token>'</token>
+    		<marker>
+    		<token>s</token>
+    		</marker>
+    		<token postag="NN.*" postag_regexp="yes"/>
+    	</pattern>
+    	<disambig postag="POS"/>
+    	<example type="untouched">His books are nice.</example>
+    	<example type="ambiguous" inputform="s[be/VBZ,s/POS]" outputform="s[s/POS]" >One'<marker>s</marker> hypothesis needs to be tested.</example>    	
+    	<example type="ambiguous" inputform="s[be/VBZ,s/POS]" outputform="s[s/POS]" >Somebody else'<marker>s</marker> hypothesis needs to be tested.</example>    	
+    	<example type="ambiguous" inputform="s[be/VBZ,s/POS]" outputform="s[s/POS]" >Apollo 11'<marker>s</marker> flight needs to be tested.</example>
+    	<example type="ambiguous" inputform="s[be/VBZ,s/POS]" outputform="s[s/POS]" >WD-2'<marker>s</marker> hypothesis needs to be tested.</example>
+    </rule>
+    </rulegroup>
+
+	<rule id="HELP-VB-DT" name="help + verb/noun + determiner">
+		<pattern>
+		<token inflected="yes">help</token>
+		<marker>
+		<and>		
+			<token postag="VB"/>
+			<token postag="NN"/>
+		</and>
+		</marker>
+		<token postag="DT"/>
+		</pattern>
+		<disambig postag="VB"/>
+		<example type="ambiguous" inputform="train[train/NN,train/VB,train/VBP]" outputform="train[train/VB]">Our army helped <marker>train</marker> the Armenian soldiers.</example>
+	</rule>
+	
+	<rule id="CD_AD" name="24 AD">
+		<pattern case_sensitive="yes">
+			<token postag="CD"/>
+			<marker>
+				<token>AD</token>
+			</marker>
+		</pattern>
+		<disambig postag="NNP"/>
+		<example type="untouched">1 ad for you</example>
+		<example type="ambiguous" inputform="AD[AD/NNP,ad/NN]" outputform="AD[AD/NNP]">24 <marker>AD</marker> is a memorable date.</example>
+	</rule>
+	
+	<rule id="CAME_FROM" name="came -> vbd">
+		<pattern>
+		<marker><token>came</token></marker>
+		<token>from</token>
+		</pattern>
+		<disambig postag="VBD" />
+	</rule>       
+	
+	<rule id="SAW_PRP" name='saw him'>
+		<pattern>
+			<marker><token>saw</token></marker>
+			<token postag="PRP"/>
+		</pattern>
+		<disambig postag="VBD"/>
+		<example type="ambiguous" inputform="saw[saw/NN,saw/VB,saw/VBP,see/VBD]" outputform="saw[see/VBD]">The years 1812 and 1813 <marker>saw</marker> him in Germany and France again</example>
+	</rule>
+
+	<!--  poor man's entity recognizer to recognize numbers contained in proper names -->
+	
+	<rule id="NNP_CD" name="Apollo 11">
+		<pattern>
+			<token postag="NNP"/>
+			<marker><token postag="CD"/></marker>
+		</pattern>
+		<disambig action="add"><wd pos="NNP"></wd></disambig>
+		<example type="untouched">Apollo is beautiful.</example>
+		<example type="ambiguous" inputform="12[12/CD]" outputform="12[12/CD,12/NNP]">Apollo <marker>12</marker> was beatiful.</example>
+	</rule>
+	
+	<rulegroup id="CAN_MD" name="can as a modal verb">
+	<rule>
+		<pattern>
+			<marker><token>can</token></marker>
+			<token postag="VB"/>			
+		</pattern>
+		<disambig postag="MD"/>
+		<example type="untouched">It is a can of soup.</example>
+		<example type="ambiguous" inputform="can[can/MD,can/NN,can/VB,can/VBP]" outputform="can[can/MD]">This <marker>can</marker> be eliminated.</example>
+	</rule>
+	<rule>
+		<pattern>
+			<marker><token>can</token></marker>
+			<token postag="RB"/>
+			<token postag="VB"/>			
+		</pattern>
+		<disambig postag="MD"/>
+		<example type="untouched">It is a can of soup.</example>
+		<example type="ambiguous" inputform="can[can/MD,can/NN,can/VB,can/VBP]" outputform="can[can/MD]">This <marker>can</marker> only be eliminated.</example>
+	</rule>
+	</rulegroup>
+		<rule id="VBN_VBD" name="Past Participle">
+		<pattern>
+			<token inflected="yes" regexp="yes">be|have</token>
+			<marker>
+				<and>
+					<token postag="VBD"/>
+					<token postag="VBN"/>
+				</and>
+			</marker>
+		</pattern>
+		<disambig postag="VBN"/>
+		<example type="untouched">He has a car.</example>
+		<example type="ambiguous" inputform="made[make/VBD,make/VBN]" outputform="made[make/VBN]">He has <marker>made</marker> a mistake.</example>		
+	</rule>
+	
+	<rule id="JJ_VB" name="companies: verb to noun if preceded by adj">
+		<pattern>
+			<token postag="JJ.*" postag_regexp="yes"/>
+			<marker>
+			<and>
+				<token>companies</token>
+				<token postag="VBZ"/>
+				<token postag="NNP?S" postag_regexp="yes"/>
+			</and>
+			</marker>
+		</pattern>
+		<disambig><match no="2" postag="NNP?S" postag_regexp="yes"></match></disambig>
+	</rule>
+		<rule id="VBP_NN_VBZ" name="company -> noun">
+			<pattern>
+				<token regexp="yes" postag="VB[ZPG]?" postag_regexp="yes" inflected="yes">be|have</token>
+				<marker>
+				<and>
+					<token postag="NN.*" postag_regexp="yes"><exception postag="JJ.*" postag_regexp="yes"></exception></token>
+					<token postag="VB[ZP]?" postag_regexp="yes"/>
+				</and>
+				</marker>
+			</pattern>
+			<disambig><match no="2" postag="NN.*" postag_regexp="yes"></match></disambig>
+			<example type="untouched">It's still valid.</example>
+			<example type="ambiguous" inputform="companies[company/NNS,company/VBZ]" outputform="companies[company/NNS]">They have <marker>companies</marker>.</example>
+		</rule>
+		
+		<rule name="saw as a verb" id="PRP_SAW">
+			<pattern>
+			<token postag="PRP"/>
+			<marker><token>saw</token></marker>
+			</pattern>
+			<disambig postag="VBD"/>
+			<example type="untouched">I used my saw.</example>
+			<example type="ambiguous" inputform="saw[saw/NN,saw/VB,saw/VBP,see/VBD]" outputform="saw[see/VBD]">This is what he <marker>saw</marker>.</example>
+		</rule>
+	
+</rules>
+ 

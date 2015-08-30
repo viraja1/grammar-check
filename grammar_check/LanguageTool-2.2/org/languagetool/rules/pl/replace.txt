@@ -1,0 +1,18 @@
+# @author Marcin Miłkowski
+#
+# Bezkontekstowe literówki - tj. wyrazy niewykrywane przez normalny
+# korektor pisowni, a bardzo rzadkie i będące literówkami
+#
+
+piaty=piąty
+dzieję=dzieje
+zawszę=zawsze
+parz=patrz
+przejcie=przejście
+slaby=słaby
+Aachen=Akwizgran
+Chańcza=Hańcza
+bezsensowy=bezsensowny
+otocznia=otoczenia
+otocznie=otoczenie
+mięli=mieli

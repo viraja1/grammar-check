@@ -1,0 +1,8 @@
+# words to be ignored by the spellchecker (auto-generated)
+Ameriknen
+faut
+IJlander
+e-post
+il
+comme
+á

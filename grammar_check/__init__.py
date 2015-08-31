@@ -41,7 +41,7 @@ from .backports import subprocess
 from .which import which
 
 
-__version__ = '0.7.2'
+__version__ = '1.2'
 
 
 __all__ = ['LanguageTool', 'Error', 'get_languages', 'correct', 'get_version',
@@ -175,7 +175,7 @@ class LanguageTool:
     _HOST = socket.gethostbyname('localhost')
     _MIN_PORT = 8081
     _MAX_PORT = 8083
-    _TIMEOUT = 5 * 60
+    _TIMEOUT = 60
 
     _port = _MIN_PORT
     _server = None
@@ -193,14 +193,15 @@ class LanguageTool:
         self._language = LanguageTag(language)
         self.motherTongue = motherTongue
         # spell check rules are disabled by default
-        self.disabled = set({'HUNSPELL_RULE', 'HUNSPELL_NO_SUGGEST_RULE',
-                'MORFOLOGIK_RULE_' + self.language.replace('-', '_').upper()})
+        self.disabled = {'HUNSPELL_RULE', 'HUNSPELL_NO_SUGGEST_RULE',
+                'MORFOLOGIK_RULE_' + self.language.replace('-', '_').upper()}
         self.enabled = set()
         self._instances[id(self)] = self
 
     def __del__(self):
         if not self._instances and self._server_is_alive():
-            self._terminate_server()
+            #self._terminate_server()
+            pass
 
     def __repr__(self):
         return '{}(language={!r}, motherTongue={!r})'.format(

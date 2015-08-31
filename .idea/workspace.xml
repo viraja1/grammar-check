@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3275993d-d072-48f4-96c2-e8ff1cd8903c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/CHANGES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/COPYING.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-all/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-all/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ast/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ast/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-be/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-be/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-br/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-br/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ca/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ca/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-da/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-da/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-de-DE-x-simple-language/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-de-DE-x-simple-language/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-de/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-de/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-el/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-el/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-en/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-en/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-eo/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-eo/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-es/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-es/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-fa/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-fa/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-fr/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-fr/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-gl/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-gl/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-is/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-is/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-it/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-it/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ja/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ja/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-km/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-km/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-lt/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-lt/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ml/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ml/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-nl/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-nl/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-pl/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-pl/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-pt/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-pt/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ro/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ro/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ru/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ru/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-sk/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-sk/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-sl/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-sl/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-sv/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-sv/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ta/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-ta/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-tl/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-tl/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-uk/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-uk/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-zh/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/maven/org.languagetool/language-zh/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/META-INF/org/languagetool/language-module.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/languagetool-commandline.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/languagetool-server.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/languagetool.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/annotations.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/cjftransform.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/commons-cli.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/commons-lang.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/commons-logging.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/guava.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/hamcrest-core.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/hppc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/hunspell-native-libs.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/ictclas4j.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/jna.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/jsonic.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/junit.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/jwordsplitter.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/language-detector.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/languagetool-core-tests.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/languagetool-core.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/languagetool-gui-commons.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/lucene-core.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/lucene-gosen-ipadic.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/morfologik-fsa.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/morfologik-polish.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/morfologik-speller.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/morfologik-stemming.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/morfologik-tools.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/opennlp-chunk-models.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/opennlp-maxent.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/opennlp-postag-models.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/opennlp-tokenize-models.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/opennlp-tools.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/openregex.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/segment.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/slf4j-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/libs/slf4j-nop.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_ast.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_be.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_br.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_ca.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_da.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_de.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_el_GR.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_eo.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_es.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_fa.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_fr.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_gl.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_is.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_it.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_ja.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_km.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_lt.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_nl.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_pl.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_pt_BR.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_pt_PT.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_ro.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_ru.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_sk.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_sl.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_sv.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_ta.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_tl.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_uk.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/MessagesBundle_zh.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/ChunkTaggedToken.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/EnglishChunkFilter$ChunkType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/EnglishChunkFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/EnglishChunker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/GermanChunker$AffectedSpans.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/GermanChunker$PhraseType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/GermanChunker$RegularExpressionWithPhraseType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/GermanChunker$Span.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/GermanChunker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/TokenExpressionFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/TokenExpressionFactory$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/TokenExpressionFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/chunking/TokenPredicate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/AmericanEnglish.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Asturian.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/AustralianEnglish.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/AustrianGerman.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Belarusian.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/BrazilianPortuguese.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Breton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/BritishEnglish.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/CanadianEnglish.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Catalan.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Chinese.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Danish.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Dutch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/English.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Esperanto.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/French.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Galician.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/GeneralCatalan.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/German$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/German.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/GermanyGerman.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Greek.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Icelandic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Italian.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Japanese.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Khmer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Lithuanian.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Malayalam.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/NewZealandEnglish.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Persian.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Polish.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/PortugalPortuguese.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Portuguese.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/PostReformPortugalPortuguese.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Romanian.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Russian.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/SimpleGerman.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Slovak.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Slovenian.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/SouthAfricanEnglish.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Spanish.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Swedish.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/SwissGerman.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Tagalog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Tamil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/Ukrainian.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/ValencianCatalan.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/rules/ast/MorfologikAsturianSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/tagging/TamilTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/tl/MorfologikTagalogSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/language/tokenizers/TagalogWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ast/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ast/ast.profile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ast/ast.profile.README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ast/asturian.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ast/asturian.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ast/hunspell/LICENCES-ast.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ast/hunspell/LICENSES-en.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ast/hunspell/ast_ES.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ast/hunspell/ast_ES.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ast/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ast/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/be/hunspell/be_BY.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/be/hunspell/be_BY.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/be/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/br/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/br/breton.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/br/breton.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/br/create-lexicon.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/br/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/br/hunspell/br_FR.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/br/hunspell/br_FR.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/br/hunspell/create-fsa-spell-dictionary.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/br/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/br/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/catalan.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/catalan.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/catalan_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/catalan_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/catalan_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/filter-archaic.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/freeling2lt.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/manual-tagger.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/multiwords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/results-to-html.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/tag_verbs.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ca/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/da/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/da/danish.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/da/danish.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/da/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/da/hunspell/README_da_DK.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/da/hunspell/da_DK.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/da/hunspell/da_DK.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/da/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/da/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/da/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de-DE-x-simple-language/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/case_rule_exceptions.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/compound-cities.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/compounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/errors.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/format_fsa.awk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/german.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/german.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/german_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/german_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/german_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/COPYING_GPLv2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/COPYING_GPLv3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/COPYING_OASIS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/README_de_DE_frami.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/create_dict.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_AT.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_AT.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_AT.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_AT.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_CH.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_CH.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_CH.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_CH.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_DE.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_DE.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_DE.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/de_DE.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/prohibit.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/prepare_fsa_format.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/de/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/greek.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/greek.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/greek.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/greek_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/greek_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/greek_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/hunspell/README_el_GR.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/hunspell/el_GR.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/hunspell/el_GR.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/make-dict-el.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/el/synthesis.awk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/12dicts-readme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/agid-readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/compounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/confusion_sets.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/english.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/english.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/english_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/english_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/english_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/errors.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/README_en_AU.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/README_en_CA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/README_en_GB.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/README_en_NZ.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/README_en_US.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/README_en_ZA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_AU.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_AU.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_CA.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_CA.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_GB.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_GB.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_NZ.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_NZ.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_US.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_US.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_ZA.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/en_ZA.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/make-dict-en.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/pos-readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/en/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/eo/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/eo/eo.profile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/eo/eo.profile.README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/eo/hunspell/README_eo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/eo/hunspell/eo.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/eo/hunspell/eo.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/eo/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/eo/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/eo/manual-tagger.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/eo/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/README.cvs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/etiquetas-eagles.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/freeling2lt.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/hunspell/README_es_ES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/hunspell/es_ES.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/hunspell/es_ES.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/makedict-es.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/morph_data_es.awk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/morph_data_es.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/multiwords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/spanish.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/spanish.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/spanish_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/spanish_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/spanish_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/synthesis.awk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/taglist.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/test-tagged.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/es/test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/README_lexique.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/compounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/create-lexicon.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/dicollecte-to-lt.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/french.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/french.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/french_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/french_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/french_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/hunspell/README_fr.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/hunspell/fr_FR.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/hunspell/fr_FR.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/multiwords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/fr/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/freeling2lt.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/galician.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/galician.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/galician_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/galician_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/galician_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/hunspell/LICENCES-gl.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/hunspell/LICENSES-en.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/hunspell/README-gl-ES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/hunspell/gl_ES.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/hunspell/gl_ES.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/makedict-gl.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/gl/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/is/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/is/hunspell/is_IS.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/is/hunspell/is_IS.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/is/hunspell/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/is/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/it/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/it/hunspell/README_it_IT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/it/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/it/hunspell/it_IT.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/it/hunspell/it_IT.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/it/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/it/italian.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/it/italian.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/it/morph_data_italian.awk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/it/not_smi.awk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/it/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/km/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/km/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/km/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/km/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/km/hunspell/km_KH.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/km/hunspell/km_KH.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/km/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/km/khmer.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/km/khmer.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/km/khmertags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/km/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ml/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ml/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ml/hunspell/ml_IN.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ml/hunspell/ml_IN.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ml/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ml/malayalam.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ml/malayalam.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/compounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/dutch.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/dutch.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/dutch_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/dutch_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/dutch_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/spelling/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/spelling/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/spelling/nl_NL.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/spelling/nl_NL.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/nl/spelling/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/compounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/hunspell/README_en.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/hunspell/pl_PL.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/hunspell/pl_PL.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/multiwords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/polish.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/polish.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/polish_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/polish_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/polish_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pl/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/hunspell/README_pt_BR.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/hunspell/README_pt_PT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/hunspell/pt_BR.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/hunspell/pt_BR.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/hunspell/pt_PT.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/hunspell/pt_PT.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/portuguese.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/portuguese.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/portuguese_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/portuguese_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/portuguese_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/post-reform-compounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/pt/pre-reform-compounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/coduri.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/compounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/hunspell/COPYING.GPL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/hunspell/COPYING.LGPL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/hunspell/COPYING.MPL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/hunspell/README_EN.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/hunspell/README_RO.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/hunspell/ro_RO.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/hunspell/ro_RO.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/romanian.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/romanian.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/romanian_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/romanian_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/romanian_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/test_diacritics.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ro/test_diacritics.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/compounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/dump.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/hunspell/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/hunspell/freq-wordlist.awk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/hunspell/make-freq-wordlist-ru.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/hunspell/ru_RU.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/hunspell/ru_RU.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/make-dict-ru-cfsa2.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/make-dict-ru.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/make-dict_synth-ru-cfsa2.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/multiwords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/russian.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/russian.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/russian_manual_add.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/russian_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/russian_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/synteza.awk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/tags.awk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/tags_russian.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ru/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/bin/filter_lft.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/compounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/create_dictionary.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/hunspell/README_en.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/hunspell/README_sk.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/hunspell/sk_SK.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/hunspell/sk_SK.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/slovak.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/slovak.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/slovak_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/slovak_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/slovak_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sk/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sl/hunspell/README_sl_SI.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sl/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sl/hunspell/sl_SI.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sl/hunspell/sl_SI.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sl/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sv/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sv/compounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sv/hunspell/LICENSE_en_US.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sv/hunspell/LICENSE_sv_SE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sv/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sv/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sv/hunspell/sv_SE.aff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sv/hunspell/sv_SE.dic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sv/swedish.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sv/swedish.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/sv/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ta/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ta/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ta/tamil.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/ta/tamil.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/tl/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/tl/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/tl/hunspell/README_frequencies.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/tl/hunspell/README_tl_PH.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/tl/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/tl/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/tl/hunspell/tl_PH.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/tl/hunspell/tl_PH.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/tl/tagalog.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/tl/tagalog.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/tl/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/added.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/dash_left_master.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/dash_prefixes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/dash_slaves.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/disambiguation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/hunspell/README_uk_UA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/hunspell/ignore.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/hunspell/spelling.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/hunspell/uk_UA.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/hunspell/uk_UA.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/multiwords.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/tagset.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/ukrainian.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/ukrainian.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/ukrainian_synth.dict" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/ukrainian_synth.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/uk/ukrainian_tags.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/zh/BigramDict.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/zh/coreDict.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/zh/coreDict2.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/zh/lexical.ctx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/zh/nr.ctx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/zh/nr.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/zh/ns.ctx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/zh/ns.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/zh/tr.ctx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/resource/zh/tr.dct" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ast/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/be/MorfologikBelarusianSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/be/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/br/DateCheckFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/br/MorfologikBretonSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/br/TopoReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/br/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/br/topo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/AccentuationCheckRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/CatalanRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/CatalanUnpairedBracketsRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/CatalanUnpairedExclamationMarksRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/CatalanUnpairedQuestionMarksRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/CatalanWordRepeatRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/CatalanWrongWordInContextRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/ComplexAdjectiveConcordanceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/DateCheckFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/MorfologikCatalanSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/ReflexiveVerbsRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/ReplaceOperationNamesRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/SimpleReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/SimpleReplaceVerbsRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/replace.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/replace_operationnames.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/replace_verbs.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/verb_senseaccent_adj_ambaccent.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/verb_senseaccent_nom_ambaccent.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ca/wrongWordInContext.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/da/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de-DE-x-simple-language/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/AgreementRule$GrammarCategory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/AgreementRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/AgreementSuggestor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/CaseRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/CaseRuleExceptions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/CompoundRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/DashRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/DateCheckFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/GermanDoublePunctuationRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/GermanHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/GermanRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/GermanSpellerRule$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/GermanSpellerRule$ExpandingReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/GermanSpellerRule$Replacement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/GermanSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/GermanWordRepeatBeginningRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/GermanWordRepeatRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/GermanWrongWordInContextRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/LineExpander.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/MissingVerbRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/MorfologikGermanyGermanSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/RecentYearFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/SentenceWhitespaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/SimilarNameRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/SubjectVerbAgreementRule$SingularPluralPair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/SubjectVerbAgreementRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/VerbAgreementRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/WiederVsWiderRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/WordCoherencyRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/coherency.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/de/wrongWordInContext.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/el/MorfologikGreekSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/el/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/AbstractEnglishSpellerRule$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/AbstractEnglishSpellerRule$IrregularForms.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/AbstractEnglishSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/AvsAnData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/AvsAnRule$Determiner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/AvsAnRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/BritishReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/CompoundRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/ContractionSpellingRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/DateCheckFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/EnglishConfusionProbabilityRule$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/EnglishConfusionProbabilityRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/EnglishPartialPosTagFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/EnglishRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/EnglishUnpairedBracketsRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/EnglishWordRepeatBeginningRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/EnglishWordRepeatRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/MorfologikAmericanSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/MorfologikAustralianSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/MorfologikBritishSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/MorfologikCanadianSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/MorfologikNewZealandSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/MorfologikSouthAfricanSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/NewZealandReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/contractions.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/det_a.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/det_an.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/en-GB/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/en-GB/replace.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/en-NZ/replace.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/en-US/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/en/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/eo/DateCheckFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/eo/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/eo/root-ant-at.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/eo/verb-ntr.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/eo/verb-tr.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/es/MorfologikSpanishSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/es/SpanishRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/es/el.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/es/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fa/PersianCommaWhitespaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fa/PersianDoublePunctuationRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fa/PersianRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fa/PersianSpaceBeforeRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fa/PersianWordRepeatBeginningRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fa/PersianWordRepeatRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fa/SimpleReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fa/WordCoherencyRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fa/coherency.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fa/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fa/replace.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fr/CompoundRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fr/DMYDateCheckFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fr/DateCheckFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fr/FrenchRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fr/QuestionWhitespaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/fr/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/gl/CastWordsRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/gl/SimpleReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/gl/bitext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/gl/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/gl/spanish.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/gl/words.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/is/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/it/ItalianWordRepeatRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/it/MorfologikItalianSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/it/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ja/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/km/KhmerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/km/KhmerSimpleReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/km/KhmerSpaceBeforeRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/km/KhmerUnpairedBracketsRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/km/KhmerWordRepeatRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/km/coherency.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/km/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/km/replace.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/lt/MorfologikLithuanianSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/lt/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ml/MorfologikMalayalamSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ml/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/nl/CompoundRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/nl/DateCheckFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/nl/DutchWrongWordInContextRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/nl/MorfologikDutchSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/nl/SimpleReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/nl/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/nl/replace.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/nl/wrongWordInContext.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pl/CompoundRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pl/DateCheckFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pl/MorfologikPolishSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pl/PolishUnpairedBracketsRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pl/PolishWordRepeatRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pl/SimpleReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pl/bitext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pl/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pl/replace.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pt/PortugueseRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pt/PostReformPortugueseCompoundRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pt/PreReformPortugueseCompoundRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/pt/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ro/CompoundRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ro/MorfologikRomanianSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ro/RomanianWordRepeatBeginningRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ro/SimpleReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ro/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ro/replace.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ru/DateCheckFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ru/MorfologikRussianSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ru/RussianCompoundRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ru/RussianRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ru/RussianSimpleReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ru/RussianUnpairedBracketsRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ru/RussianWordRepeatRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ru/bitext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ru/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ru/replace.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/sk/CompoundRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/sk/MorfologikSlovakSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/sk/SlovakRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/sk/grammar-nezaradene.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/sk/grammar-typography.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/sk/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/sl/MorfologikSlovenianSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/sl/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/sv/CompoundRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/sv/SwedishRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/sv/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/ta/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/tl/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/DateCheckFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/HiddenCharacterRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/MixedAlphabetsRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/MorfologikUkrainianSpellerRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/PunctuationCheckRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/SimpleReplaceRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/SimpleReplaceSoftRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/TokenAgreementRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/UkrainianWordRepeatRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/grammar-barbarism.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/grammar-grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/grammar-punctuation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/grammar-spelling.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/grammar-style.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/replace.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/uk/replace_soft.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/rules/zh/grammar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/FrenchSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/GermanSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/ca/CatalanSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/el/GreekSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/en/EnglishSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/es/SpanishSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/gl/GalicianSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/nl/DutchSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/pl/PolishSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/ro/RomanianSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/ru/RussianSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/sk/SlovakSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/synthesis/uk/UkrainianSynthesizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/ast/AsturianTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/br/BretonTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/ca/CatalanTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/da/DanishTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/de/AnalyzedGermanToken.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/de/GermanTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/de/GermanToken$Genus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/de/GermanToken$Kasus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/de/GermanToken$Numerus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/de/GermanToken$POSType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/de/GermanToken.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/disambiguation/ca/CatalanHybridDisambiguator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/disambiguation/es/SpanishHybridDisambiguator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/disambiguation/fr/FrenchHybridDisambiguator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/disambiguation/pl/PolishHybridDisambiguator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/disambiguation/ru/RussianHybridDisambiguator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/disambiguation/rules/de/GermanRuleDisambiguator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/disambiguation/uk/UkrainianHybridDisambiguator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/el/GreekTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/en/EnglishTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/eo/EsperantoTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/es/SpanishTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/fr/FrenchTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/gl/GalicianTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/it/ItalianTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/ja/JapaneseTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/km/KhmerTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/ml/MalayalamTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/nl/DutchTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/pl/PolishTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/pt/PortugueseTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/ro/RomanianTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/ru/RussianTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/sk/SlovakTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/sv/SwedishTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/tl/TagalogTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/uk/CompoundTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/uk/IPOSTag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/uk/PosTagHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/uk/UkrainianTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tagging/zh/ChineseTagger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/PersianWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/br/BretonWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/ca/CatalanWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/de/GermanCompoundTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/el/GreekWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/el/GreekWordTokenizerImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/en/EnglishWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/eo/EsperantoWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/es/SpanishWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/gl/GalicianWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/ja/JapaneseWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/km/KhmerWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/ml/MalayalamWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/nl/DutchWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/pl/PolishWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/ro/RomanianWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/uk/UkrainianWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/zh/ChineseSentenceTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/org/languagetool/tokenizers/zh/ChineseWordTokenizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/testrules.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/testrules.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/third-party-licenses/Apache-License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/third-party-licenses/BSD.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/third-party-licenses/CPL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/third-party-licenses/LGPL-2.1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/third-party-licenses/MIT-slf4j.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/third-party-licenses/MIT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/third-party-licenses/Morfologik-license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/third-party-licenses/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/third-party-licenses/icons.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar_check/LanguageTool-3.0/third-party-licenses/segment-license.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grammar_check/__init__.py" afterPath="$PROJECT_DIR$/grammar_check/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.cfg" afterPath="$PROJECT_DIR$/setup.cfg" />
+    </list>
+    <ignored path="grammar-check.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="grammar-check" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/setup.cfg" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1301" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grammar-check" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grammar-check" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grammar-check" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.sourceCode.Python" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="73" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="92" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="98" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="962" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="73" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="92" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="98" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="962" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="grammar-check" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="grammar-check" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="grammar-check" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="grammar-check" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="grammar-check" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="grammar-check" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="grammar-check" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="grammar-check" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="grammar-check" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3275993d-d072-48f4-96c2-e8ff1cd8903c" name="Default" comment="" />
+      <created>1441010101002</created>
+      <option name="number" value="Default" />
+      <updated>1441010101002</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/grammar_check/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10872">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26666668" vertical-offset="0" max-vertical-offset="702">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

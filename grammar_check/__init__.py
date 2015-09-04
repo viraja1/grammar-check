@@ -193,7 +193,7 @@ class LanguageTool:
         self._language = LanguageTag(language)
         self.motherTongue = motherTongue
         # spell check rules are disabled by default
-        self.disabled = {'HUNSPELL_RULE', 'HUNSPELL_NO_SUGGEST_RULE',
+        self.disabled = {'HUNSPELL_RULE', 'HUNSPELL_NO_SUGGEST_RULE', 'YOUR_NN', 'TRY_AND', 'PRP_PAST_PART',
                 'MORFOLOGIK_RULE_' + self.language.replace('-', '_').upper()}
         self.enabled = set()
         self._instances[id(self)] = self
@@ -235,7 +235,7 @@ class LanguageTool:
 
     @property
     def _spell_checking_rules(self):
-        return {'HUNSPELL_RULE', 'HUNSPELL_NO_SUGGEST_RULE', 'YOUR_NN', 'TRY_AND', 'PRP_PAST_PART',
+        return {'HUNSPELL_RULE', 'HUNSPELL_NO_SUGGEST_RULE', 
                 'MORFOLOGIK_RULE_' + self.language.replace('-', '_').upper()}
 
     def check(self, text: str, srctext=None) -> [Match]:

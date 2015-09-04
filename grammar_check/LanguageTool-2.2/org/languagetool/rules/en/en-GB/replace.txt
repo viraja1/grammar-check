@@ -1,2 +1,2 @@
-rs=Rs.
 i=I
+rs=Rs
